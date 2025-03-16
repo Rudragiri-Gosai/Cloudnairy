@@ -33,6 +33,7 @@ function App() {
     try {
       const uploaded_image_URL = result.data.url;
       // console.log(uploaded_image);
+      alert("Your Image is Uploaded.....")
       setuploaded_image(uploaded_image_URL);
     } catch (error) {
       console.log(error);
